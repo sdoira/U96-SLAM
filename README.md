@@ -30,3 +30,6 @@ The design files contained in the "src" directory are distributed under the foll
 	 ├─dvp            ┄┄ MIT
 	 ├─capture_video  ┄┄ MIT
 	 └─stereo_calib   ┄┄ MIT
+
+The road scene image in the title is taken from the KITTI Dataset.
+
