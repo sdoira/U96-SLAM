@@ -12,7 +12,7 @@ This repository contains all design files for this project.
 ## Article
 The article is published in Hackster web site that describes how to build the project in detail.
 
-Hackster ![U96-SLAM](https://www.hackster.io/)
+Hackster ![U96-SLAM](https://www.hackster.io/sdoira/visual-slam-on-ultra96-v2-9383d7)
 
 
 ## License
