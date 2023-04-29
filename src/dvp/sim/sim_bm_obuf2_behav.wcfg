@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_bm_obuf2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_bm_obuf2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="5456505001fs"></ZoomEndTime>
+      <Cursor1Time time="5456505000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="169"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="50" />
+   <wvobject type="divider" fp_name="divider385">
+      <obj_property name="label">Parameter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/bst_len" type="array">
+      <obj_property name="ElementShortName">bst_len[5:0]</obj_property>
+      <obj_property name="ObjectShortName">bst_len[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/bst_len_m1" type="array">
+      <obj_property name="ElementShortName">bst_len_m1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">bst_len_m1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/inv_wdt" type="array">
+      <obj_property name="ElementShortName">inv_wdt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">inv_wdt[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/inv_bst" type="array">
+      <obj_property name="ElementShortName">inv_bst[3:0]</obj_property>
+      <obj_property name="ObjectShortName">inv_bst[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/inv_smp" type="array">
+      <obj_property name="ElementShortName">inv_smp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">inv_smp[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider448">
+      <obj_property name="label">Input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/din" type="array">
+      <obj_property name="ElementShortName">din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/disp" type="array">
+      <obj_property name="ElementShortName">disp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">disp[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/frac" type="array">
+      <obj_property name="ElementShortName">frac[7:0]</obj_property>
+      <obj_property name="ObjectShortName">frac[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/disp_ext" type="array">
+      <obj_property name="ElementShortName">disp_ext[15:0]</obj_property>
+      <obj_property name="ObjectShortName">disp_ext[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/frac_ext" type="array">
+      <obj_property name="ElementShortName">frac_ext[15:0]</obj_property>
+      <obj_property name="ObjectShortName">frac_ext[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/depth" type="array">
+      <obj_property name="ElementShortName">depth[16:0]</obj_property>
+      <obj_property name="ObjectShortName">depth[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/depth_lim" type="array">
+      <obj_property name="ElementShortName">depth_lim[15:0]</obj_property>
+      <obj_property name="ObjectShortName">depth_lim[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/depth_lim_r" type="array">
+      <obj_property name="ElementShortName">depth_lim_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">depth_lim_r[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider447">
+      <obj_property name="label">FIFO Write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/wr_r" type="logic">
+      <obj_property name="ElementShortName">wr_r</obj_property>
+      <obj_property name="ObjectShortName">wr_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/fifo_wr" type="logic">
+      <obj_property name="ElementShortName">fifo_wr</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/fifo_din" type="array">
+      <obj_property name="ElementShortName">fifo_din[16:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_din[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/fifo_wr_cnt" type="array">
+      <obj_property name="ElementShortName">fifo_wr_cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_cnt[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/fifo_full" type="logic">
+      <obj_property name="ElementShortName">fifo_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/fifo_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/ovf" type="logic">
+      <obj_property name="ElementShortName">ovf</obj_property>
+      <obj_property name="ObjectShortName">ovf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/udf" type="logic">
+      <obj_property name="ElementShortName">udf</obj_property>
+      <obj_property name="ObjectShortName">udf</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider383">
+      <obj_property name="label">Control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/st_cnt" type="array">
+      <obj_property name="ElementShortName">st_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">st_cnt[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/col" type="array">
+      <obj_property name="ElementShortName">col[9:0]</obj_property>
+      <obj_property name="ObjectShortName">col[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/last_col" type="logic">
+      <obj_property name="ElementShortName">last_col</obj_property>
+      <obj_property name="ObjectShortName">last_col</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/row" type="array">
+      <obj_property name="ElementShortName">row[8:0]</obj_property>
+      <obj_property name="ObjectShortName">row[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/last_row" type="logic">
+      <obj_property name="ElementShortName">last_row</obj_property>
+      <obj_property name="ObjectShortName">last_row</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/frm_end" type="logic">
+      <obj_property name="ElementShortName">frm_end</obj_property>
+      <obj_property name="ObjectShortName">frm_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/bank" type="logic">
+      <obj_property name="ElementShortName">bank</obj_property>
+      <obj_property name="ObjectShortName">bank</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/last_bst" type="logic">
+      <obj_property name="ElementShortName">last_bst</obj_property>
+      <obj_property name="ObjectShortName">last_bst</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider449">
+      <obj_property name="label">FIFO Read</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/fifo_rd_cnt" type="array">
+      <obj_property name="ElementShortName">fifo_rd_cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_cnt[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/fifo_rd" type="logic">
+      <obj_property name="ElementShortName">fifo_rd</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/fifo_dout" type="array">
+      <obj_property name="ElementShortName">fifo_dout[33:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_dout[33:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/last_bst_o" type="logic">
+      <obj_property name="ElementShortName">last_bst_o</obj_property>
+      <obj_property name="ObjectShortName">last_bst_o</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider384">
+      <obj_property name="label">DDR Arbiter I/F</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/addr_ofs" type="array">
+      <obj_property name="ElementShortName">addr_ofs[19:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_ofs[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/dwr_req" type="logic">
+      <obj_property name="ElementShortName">dwr_req</obj_property>
+      <obj_property name="ObjectShortName">dwr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/dwr_ack" type="logic">
+      <obj_property name="ElementShortName">dwr_ack</obj_property>
+      <obj_property name="ObjectShortName">dwr_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/dwr_cmd" type="array">
+      <obj_property name="ElementShortName">dwr_cmd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dwr_cmd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/dwr_addr" type="array">
+      <obj_property name="ElementShortName">dwr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dwr_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/dwr_vout" type="logic">
+      <obj_property name="ElementShortName">dwr_vout</obj_property>
+      <obj_property name="ObjectShortName">dwr_vout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_bm_obuf2/bm_obuf2/dwr_dout" type="array">
+      <obj_property name="ElementShortName">dwr_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dwr_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider990">
+   </wvobject>
+</wave_config>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_dvp_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_dvp" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4351115001fs"></ZoomEndTime>
+      <Cursor1Time time="4351115000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="140"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject type="divider" fp_name="divider4381">
+      <obj_property name="label">Control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_sim_start" type="logic">
+      <obj_property name="ElementShortName">gftt_sim_start</obj_property>
+      <obj_property name="ObjectShortName">gftt_sim_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_start" type="logic">
+      <obj_property name="ElementShortName">gftt_start</obj_property>
+      <obj_property name="ObjectShortName">gftt_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_on" type="logic">
+      <obj_property name="ElementShortName">gftt_on</obj_property>
+      <obj_property name="ObjectShortName">gftt_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_done" type="logic">
+      <obj_property name="ElementShortName">gftt_done</obj_property>
+      <obj_property name="ObjectShortName">gftt_done</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider4347">
+      <obj_property name="label">DDR Read</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/drd_req" type="logic">
+      <obj_property name="ElementShortName">drd_req</obj_property>
+      <obj_property name="ObjectShortName">drd_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/drd_ack" type="logic">
+      <obj_property name="ElementShortName">drd_ack</obj_property>
+      <obj_property name="ObjectShortName">drd_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/drd_vin" type="logic">
+      <obj_property name="ElementShortName">drd_vin</obj_property>
+      <obj_property name="ObjectShortName">drd_vin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/drd_din" type="array">
+      <obj_property name="ElementShortName">drd_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">drd_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/drd_vout" type="logic">
+      <obj_property name="ElementShortName">drd_vout</obj_property>
+      <obj_property name="ObjectShortName">drd_vout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/drd_dout" type="array">
+      <obj_property name="ElementShortName">drd_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">drd_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider4348">
+      <obj_property name="label">Input Buffer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_ibuf/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_ibuf/col" type="array">
+      <obj_property name="ElementShortName">col[7:0]</obj_property>
+      <obj_property name="ObjectShortName">col[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_ibuf/row" type="array">
+      <obj_property name="ElementShortName">row[8:0]</obj_property>
+      <obj_property name="ObjectShortName">row[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_ibuf/bank" type="logic">
+      <obj_property name="ElementShortName">bank</obj_property>
+      <obj_property name="ObjectShortName">bank</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_ibuf/line0" type="array">
+      <obj_property name="ElementShortName">line0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line0[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_ibuf/line1" type="array">
+      <obj_property name="ElementShortName">line1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_ibuf/line2" type="array">
+      <obj_property name="ElementShortName">line2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">line2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_ibuf/vout" type="logic">
+      <obj_property name="ElementShortName">vout</obj_property>
+      <obj_property name="ObjectShortName">vout</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider4390">
+      <obj_property name="label">Sobel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/xsbl" type="array">
+      <obj_property name="ElementShortName">xsbl[11:0]</obj_property>
+      <obj_property name="ObjectShortName">xsbl[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/ysbl" type="array">
+      <obj_property name="ElementShortName">ysbl[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ysbl[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/sbl_vout" type="logic">
+      <obj_property name="ElementShortName">sbl_vout</obj_property>
+      <obj_property name="ObjectShortName">sbl_vout</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider4391">
+      <obj_property name="label">Eigen</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/eig_dout" type="array">
+      <obj_property name="ElementShortName">eig_dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">eig_dout[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/eig_vout" type="logic">
+      <obj_property name="ElementShortName">eig_vout</obj_property>
+      <obj_property name="ObjectShortName">eig_vout</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider4392">
+      <obj_property name="label">Output Buffer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_obuf/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_obuf/col" type="array">
+      <obj_property name="ElementShortName">col[9:0]</obj_property>
+      <obj_property name="ObjectShortName">col[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_obuf/row" type="array">
+      <obj_property name="ElementShortName">row[8:0]</obj_property>
+      <obj_property name="ObjectShortName">row[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_obuf/bank" type="logic">
+      <obj_property name="ElementShortName">bank</obj_property>
+      <obj_property name="ObjectShortName">bank</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/gftt_obuf/last_bst" type="logic">
+      <obj_property name="ElementShortName">last_bst</obj_property>
+      <obj_property name="ObjectShortName">last_bst</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider4380">
+      <obj_property name="label">DDR Write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/dwr_req" type="logic">
+      <obj_property name="ElementShortName">dwr_req</obj_property>
+      <obj_property name="ObjectShortName">dwr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/dwr_ack" type="logic">
+      <obj_property name="ElementShortName">dwr_ack</obj_property>
+      <obj_property name="ObjectShortName">dwr_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/dwr_vout" type="logic">
+      <obj_property name="ElementShortName">dwr_vout</obj_property>
+      <obj_property name="ObjectShortName">dwr_vout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/gftt/dwr_dout" type="array">
+      <obj_property name="ElementShortName">dwr_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dwr_dout[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_dvp_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_dvp" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="63492800811306fs"></ZoomStartTime>
+      <ZoomEndTime time="66140339889868fs"></ZoomEndTime>
+      <Cursor1Time time="65562695000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="176"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject type="divider" fp_name="divider140">
+      <obj_property name="label">Internal Bus</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/ibus_cs" type="logic">
+      <obj_property name="ElementShortName">ibus_cs</obj_property>
+      <obj_property name="ObjectShortName">ibus_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/ibus_wr" type="logic">
+      <obj_property name="ElementShortName">ibus_wr</obj_property>
+      <obj_property name="ObjectShortName">ibus_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/ibus_addr_7_2" type="array">
+      <obj_property name="ElementShortName">ibus_addr_7_2[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ibus_addr_7_2[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/ibus_wrdata" type="array">
+      <obj_property name="ElementShortName">ibus_wrdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ibus_wrdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/ibus_rddata" type="array">
+      <obj_property name="ElementShortName">ibus_rddata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ibus_rddata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider139">
+      <obj_property name="label">DVP Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/pclk" type="logic">
+      <obj_property name="ElementShortName">pclk</obj_property>
+      <obj_property name="ObjectShortName">pclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/vsync" type="logic">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/href" type="logic">
+      <obj_property name="ElementShortName">href</obj_property>
+      <obj_property name="ObjectShortName">href</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider142">
+      <obj_property name="label">Measurement</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/vsync" type="logic">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/vsync_pol" type="logic">
+      <obj_property name="ElementShortName">vsync_pol</obj_property>
+      <obj_property name="ObjectShortName">vsync_pol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/v_pos" type="logic">
+      <obj_property name="ElementShortName">v_pos</obj_property>
+      <obj_property name="ObjectShortName">v_pos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/h_pos" type="logic">
+      <obj_property name="ElementShortName">h_pos</obj_property>
+      <obj_property name="ObjectShortName">h_pos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/meas_trig" type="logic">
+      <obj_property name="ElementShortName">meas_trig</obj_property>
+      <obj_property name="ObjectShortName">meas_trig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/meas_trig_p" type="logic">
+      <obj_property name="ElementShortName">meas_trig_p</obj_property>
+      <obj_property name="ObjectShortName">meas_trig_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/meas_wait" type="logic">
+      <obj_property name="ElementShortName">meas_wait</obj_property>
+      <obj_property name="ObjectShortName">meas_wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/meas_on" type="logic">
+      <obj_property name="ElementShortName">meas_on</obj_property>
+      <obj_property name="ObjectShortName">meas_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/cmpl" type="logic">
+      <obj_property name="ElementShortName">cmpl</obj_property>
+      <obj_property name="ObjectShortName">cmpl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/v_period" type="array">
+      <obj_property name="ElementShortName">v_period[23:0]</obj_property>
+      <obj_property name="ObjectShortName">v_period[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/h_period" type="array">
+      <obj_property name="ElementShortName">h_period[13:0]</obj_property>
+      <obj_property name="ObjectShortName">h_period[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/v_active" type="array">
+      <obj_property name="ElementShortName">v_active[13:0]</obj_property>
+      <obj_property name="ObjectShortName">v_active[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/h_active" type="array">
+      <obj_property name="ElementShortName">h_active[13:0]</obj_property>
+      <obj_property name="ObjectShortName">h_active[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/h_begin" type="array">
+      <obj_property name="ElementShortName">h_begin[23:0]</obj_property>
+      <obj_property name="ObjectShortName">h_begin[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/v_pos_i" type="logic">
+      <obj_property name="ElementShortName">v_pos_i</obj_property>
+      <obj_property name="ObjectShortName">v_pos_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/state_i" type="array">
+      <obj_property name="ElementShortName">state_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/frame_meas/v_period_ref" type="array">
+      <obj_property name="ElementShortName">v_period_ref[31:0]</obj_property>
+      <obj_property name="ObjectShortName">v_period_ref[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

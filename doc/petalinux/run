@@ -1,0 +1,13 @@
+rm *.csv
+rm *.bmp
+rm *.png
+rm *.jpg
+rm *.txt
+rm -rf work
+echo StereoBM.elf > /sys/class/remoteproc/remoteproc0/firmware
+echo start > /sys/class/remoteproc/remoteproc0/state
+#/lib/firmware/slam.elf -app "STEREO_CAPTURE" -lc "calib_left.yml" -rc "calib_right.yml"
+#/lib/firmware/slam.elf -app "FRAME_GRABBER"
+#/lib/firmware/slam.elf -app "SLAM_BATCH" -dir "kitti/sequences/00" -l "image_0" -r "image_1" -t "times.txt" -gt "../../poses/00.txt" -lc "calib.txt" -n 100
+/lib/firmware/slam.elf -app "SLAM_REALTIME" -lc "calib_left.yml" -rc "calib_right.yml"
+shutdown -h now

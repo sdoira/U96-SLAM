@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_dvp_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_dvp" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="87427905001fs"></ZoomEndTime>
+      <Cursor1Time time="87427905000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="81" />
+   <wvobject type="divider" fp_name="divider1192">
+      <obj_property name="label">Sensor Input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/sof_l" type="logic">
+      <obj_property name="ElementShortName">sof_l</obj_property>
+      <obj_property name="ObjectShortName">sof_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/valid_l" type="logic">
+      <obj_property name="ElementShortName">valid_l</obj_property>
+      <obj_property name="ObjectShortName">valid_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/data_l" type="array">
+      <obj_property name="ElementShortName">data_l[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_l[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/data_r" type="array">
+      <obj_property name="ElementShortName">data_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1704">
+      <obj_property name="label">Interrupt</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/axi_if/intr" type="logic">
+      <obj_property name="ElementShortName">intr</obj_property>
+      <obj_property name="ObjectShortName">intr</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider254">
+      <obj_property name="label">Command I/F</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/cmd_mode" type="logic">
+      <obj_property name="ElementShortName">cmd_mode</obj_property>
+      <obj_property name="ObjectShortName">cmd_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/cmd_rst" type="logic">
+      <obj_property name="ElementShortName">cmd_rst</obj_property>
+      <obj_property name="ObjectShortName">cmd_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/cmd_in" type="array">
+      <obj_property name="ElementShortName">cmd_in[17:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_in[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/cmd_wr" type="logic">
+      <obj_property name="ElementShortName">cmd_wr</obj_property>
+      <obj_property name="ObjectShortName">cmd_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/cmd_cnt" type="array">
+      <obj_property name="ElementShortName">cmd_cnt[14:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_cnt[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/cmd_addr" type="array">
+      <obj_property name="ElementShortName">cmd_addr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_addr[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/cmd_rd" type="logic">
+      <obj_property name="ElementShortName">cmd_rd</obj_property>
+      <obj_property name="ObjectShortName">cmd_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/cmd_out" type="array">
+      <obj_property name="ElementShortName">cmd_out[17:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_out[17:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider255">
+      <obj_property name="label">Rect</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/ibuf_rdy" type="logic">
+      <obj_property name="ElementShortName">ibuf_rdy</obj_property>
+      <obj_property name="ObjectShortName">ibuf_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/ibuf_upd" type="logic">
+      <obj_property name="ElementShortName">ibuf_upd</obj_property>
+      <obj_property name="ObjectShortName">ibuf_upd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/cke" type="logic">
+      <obj_property name="ElementShortName">cke</obj_property>
+      <obj_property name="ObjectShortName">cke</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp_v" type="logic">
+      <obj_property name="ElementShortName">rmp_v</obj_property>
+      <obj_property name="ObjectShortName">rmp_v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/intp_v" type="logic">
+      <obj_property name="ElementShortName">intp_v</obj_property>
+      <obj_property name="ObjectShortName">intp_v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/intp_lr" type="logic">
+      <obj_property name="ElementShortName">intp_lr</obj_property>
+      <obj_property name="ObjectShortName">intp_lr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/intp_last" type="logic">
+      <obj_property name="ElementShortName">intp_last</obj_property>
+      <obj_property name="ObjectShortName">intp_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/intp_ydst" type="array">
+      <obj_property name="ElementShortName">intp_ydst[8:0]</obj_property>
+      <obj_property name="ObjectShortName">intp_ydst[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/intp_xdst" type="array">
+      <obj_property name="ElementShortName">intp_xdst[9:0]</obj_property>
+      <obj_property name="ObjectShortName">intp_xdst[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/intp_len" type="array">
+      <obj_property name="ElementShortName">intp_len[6:0]</obj_property>
+      <obj_property name="ObjectShortName">intp_len[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/intp_dout" type="array">
+      <obj_property name="ElementShortName">intp_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">intp_dout[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider961">
+      <obj_property name="label">X-Sobel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/xsbl2/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/xsbl2/xsbl_start" type="logic">
+      <obj_property name="ElementShortName">xsbl_start</obj_property>
+      <obj_property name="ObjectShortName">xsbl_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/xsbl2/xsbl_on" type="logic">
+      <obj_property name="ElementShortName">xsbl_on</obj_property>
+      <obj_property name="ObjectShortName">xsbl_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/xsbl2/state" type="array">
+      <obj_property name="ElementShortName">state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/xsbl2/bst_end" type="logic">
+      <obj_property name="ElementShortName">bst_end</obj_property>
+      <obj_property name="ObjectShortName">bst_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/xsbl2/line_end" type="logic">
+      <obj_property name="ElementShortName">line_end</obj_property>
+      <obj_property name="ObjectShortName">line_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/xsbl2/hcnt" type="array">
+      <obj_property name="ElementShortName">hcnt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">hcnt[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/xsbl2/henb" type="logic">
+      <obj_property name="ElementShortName">henb</obj_property>
+      <obj_property name="ObjectShortName">henb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/xsbl2/frm_end" type="logic">
+      <obj_property name="ElementShortName">frm_end</obj_property>
+      <obj_property name="ObjectShortName">frm_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/xsbl2/xsbl" type="array">
+      <obj_property name="ElementShortName">xsbl[3:0][5:0]</obj_property>
+      <obj_property name="ObjectShortName">xsbl[3:0][5:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider239">
+      <obj_property name="label">bm</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/bm_ibuf/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/bm_ibuf/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/bm_ibuf/dphase" type="array">
+      <obj_property name="ElementShortName">dphase[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dphase[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/bm_ibuf/op_phase" type="array">
+      <obj_property name="ElementShortName">op_phase[2:0]</obj_property>
+      <obj_property name="ObjectShortName">op_phase[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/bm_ibuf/op_type" type="array">
+      <obj_property name="ElementShortName">op_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">op_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/bm_ibuf/add_line" type="array">
+      <obj_property name="ElementShortName">add_line[8:0]</obj_property>
+      <obj_property name="ObjectShortName">add_line[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/bm_ibuf/sub_line" type="array">
+      <obj_property name="ElementShortName">sub_line[8:0]</obj_property>
+      <obj_property name="ObjectShortName">sub_line[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/bm_ibuf/sad_line" type="array">
+      <obj_property name="ElementShortName">sad_line[8:0]</obj_property>
+      <obj_property name="ObjectShortName">sad_line[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider8567">
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/drd_req" type="logic">
+      <obj_property name="ElementShortName">drd_req</obj_property>
+      <obj_property name="ObjectShortName">drd_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/drd_ack" type="logic">
+      <obj_property name="ElementShortName">drd_ack</obj_property>
+      <obj_property name="ObjectShortName">drd_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/drd_vin" type="logic">
+      <obj_property name="ElementShortName">drd_vin</obj_property>
+      <obj_property name="ObjectShortName">drd_vin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/drd_din" type="array">
+      <obj_property name="ElementShortName">drd_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">drd_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/drd_vout" type="logic">
+      <obj_property name="ElementShortName">drd_vout</obj_property>
+      <obj_property name="ObjectShortName">drd_vout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/drd_dout" type="array">
+      <obj_property name="ElementShortName">drd_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">drd_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider8574">
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/dwr_req" type="logic">
+      <obj_property name="ElementShortName">dwr_req</obj_property>
+      <obj_property name="ObjectShortName">dwr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/dwr_ack" type="logic">
+      <obj_property name="ElementShortName">dwr_ack</obj_property>
+      <obj_property name="ObjectShortName">dwr_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/dwr_vout" type="logic">
+      <obj_property name="ElementShortName">dwr_vout</obj_property>
+      <obj_property name="ObjectShortName">dwr_vout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/bm/dwr_dout" type="array">
+      <obj_property name="ElementShortName">dwr_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dwr_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider737">
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/upd" type="logic">
+      <obj_property name="ElementShortName">upd</obj_property>
+      <obj_property name="ObjectShortName">upd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/rdy" type="logic">
+      <obj_property name="ElementShortName">rdy</obj_property>
+      <obj_property name="ObjectShortName">rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/skip_wait" type="logic">
+      <obj_property name="ElementShortName">skip_wait</obj_property>
+      <obj_property name="ObjectShortName">skip_wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/int_ysrc" type="array">
+      <obj_property name="ElementShortName">int_ysrc[8:0]</obj_property>
+      <obj_property name="ObjectShortName">int_ysrc[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/ysrc" type="array">
+      <obj_property name="ElementShortName">ysrc[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ysrc[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus1181" type="vbus">
+      <obj_property name="label">ysrc[13:5]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/sim_dvp/dvp/rect/rmp/ysrc[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/rect/rmp/ysrc[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/rect/rmp/ysrc[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/rect/rmp/ysrc[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/rect/rmp/ysrc[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/rect/rmp/ysrc[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/rect/rmp/ysrc[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/rect/rmp/ysrc[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/rect/rmp/ysrc[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/cke" type="logic">
+      <obj_property name="ElementShortName">cke</obj_property>
+      <obj_property name="ObjectShortName">cke</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/cmd_rd" type="logic">
+      <obj_property name="ElementShortName">cmd_rd</obj_property>
+      <obj_property name="ObjectShortName">cmd_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/cmd_cnt" type="array">
+      <obj_property name="ElementShortName">cmd_cnt[14:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_cnt[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/cmd_addr" type="array">
+      <obj_property name="ElementShortName">cmd_addr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_addr[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/cmd_end" type="logic">
+      <obj_property name="ElementShortName">cmd_end</obj_property>
+      <obj_property name="ObjectShortName">cmd_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/last_r" type="array">
+      <obj_property name="ElementShortName">last_r[8:0]</obj_property>
+      <obj_property name="ObjectShortName">last_r[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp/last_dly" type="logic">
+      <obj_property name="ElementShortName">last_dly</obj_property>
+      <obj_property name="ObjectShortName">last_dly</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/rmp_last" type="logic">
+      <obj_property name="ElementShortName">rmp_last</obj_property>
+      <obj_property name="ObjectShortName">rmp_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/rect/intp_last" type="logic">
+      <obj_property name="ElementShortName">intp_last</obj_property>
+      <obj_property name="ObjectShortName">intp_last</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider282">
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/sof_l" type="logic">
+      <obj_property name="ElementShortName">sof_l</obj_property>
+      <obj_property name="ObjectShortName">sof_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/valid_l" type="logic">
+      <obj_property name="ElementShortName">valid_l</obj_property>
+      <obj_property name="ObjectShortName">valid_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/data_l" type="array">
+      <obj_property name="ElementShortName">data_l[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_l[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider578">
+   </wvobject>
+</wave_config>
