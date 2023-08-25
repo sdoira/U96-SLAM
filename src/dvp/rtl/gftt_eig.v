@@ -318,7 +318,8 @@ end
 
 gftt_sqrt gftt_sqrt (
 	.aclk (clk),
-	.s_axis_cartesian_tdata  ({amc2pb2_lim[21:0], 10'b0}),
+	//.s_axis_cartesian_tdata  ({amc2pb2_lim[21:0], 10'b0}),
+	.s_axis_cartesian_tdata  ({1'b0, amc2pb2_lim[21:0], 9'b0}),
 	.s_axis_cartesian_tvalid (box_vout_r[2]),
 	.m_axis_dout_tdata       (sqrt[16:0]),
 	.m_axis_dout_tvalid      (sqrt_vout)
